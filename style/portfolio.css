@@ -1,5 +1,5 @@
 :root {
-  --brading-color: #c1dfc4 0%;
+  --branding-color: #99b4a1;
   --secondary-color: #deecdd 100%;
   --heading-font-family: Mulish, sans-serif;
   --default-font-family: Figtree, sans-serif;
@@ -8,7 +8,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 50px;
-  padding: 150px;
+  padding: 100px 20px;
 }
 p {
   font-family: var(--heading-font-family);
@@ -23,7 +23,6 @@ p {
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
-  line-height: 3;
   font-size: 25px;
 }
 
@@ -31,8 +30,11 @@ p {
   font-size: 35px;
 }
 
+.btn {
+  border: 1px solid;
+}
 .btn-branding {
-  background: var(--brading-color);
+  background: var(--branding-color);
   border-radius: 5px;
   color: black;
   font-size: 20px;
