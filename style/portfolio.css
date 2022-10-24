@@ -1,8 +1,40 @@
+:root {
+  --branding-color: #c1dfc4 0%;
+  --secondary-color: #deecdd 100%;
+  --heading-font-family: Mulish, sans-serif;
+  --default-font-family: Figtree, sans-serif;
+}
 h1 {
-  font-family: Mulish, sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
+  font-size: 50px;
+  padding: 150px;
 }
 p {
-  font-family: Figtree, sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: lighter;
+}
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 3;
+  font-size: 25px;
+}
+
+.hero p {
+  font-size: 35px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 15px 30px;
 }
