@@ -32,7 +32,19 @@ p {
 }
 .container {
   background: var(--secondary-color);
+  background-size: 100% 100%;
   text-align: center;
+}
+
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  font-family: var(--default-font-family);
 }
 
 .hero h2 {
@@ -75,4 +87,7 @@ p {
 }
 .text-center {
   padding: 30px 2px;
+}
+.image-about {
+  padding: 50px 5px;
 }
