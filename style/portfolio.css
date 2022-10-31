@@ -1,17 +1,23 @@
 :root {
-  --branding-color: #99b4a1;
-  --secondary-color: #deecdd 100%;
+  --branding-color: #e9e3c8;
+  --secondary-color: #99b4a1;
   --heading-font-family: Mulish, sans-serif;
   --default-font-family: Figtree, sans-serif;
+}
+body {
+  background-color: #99b4a1 !important;
 }
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 50px;
-  padding: 60px 5px;
+  padding: 40px 5px;
 }
 h2 {
   font-size: 65px;
+}
+h4 {
+  font-size: 45px;
 }
 p {
   font-family: var(--heading-font-family);
@@ -28,7 +34,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 150px 20px;
+  padding: 80px 20px;
 }
 .container {
   background: var(--secondary-color);
@@ -66,7 +72,6 @@ p {
 .hero p {
   font-size: 35px;
 }
-
 .btn {
   border: 1px solid;
 }
@@ -134,4 +139,34 @@ nav a:hover,
 nav li.active a {
   color: var(--secondary-color);
   transition: all 100ems ease-in-out;
+}
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--branding-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+footer .project-box {
+  padding: 5px 30px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  padding: 10px;
 }
