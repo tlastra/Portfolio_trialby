@@ -110,3 +110,28 @@ p {
   text-align: center;
   vertical-align: middle;
 }
+.logo {
+  max-height: 50px;
+}
+nav {
+  padding: 10px 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin-left: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+  transition: all 100ems ease-in-out;
+}
