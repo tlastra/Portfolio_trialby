@@ -36,15 +36,25 @@ p {
   text-align: center;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-family: var(--heading-font-family);
   font-size: 40px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 30px;
   font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 25px;
+  line-height: 1;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 15px;
+  margin-top: 5px;
 }
 
 .hero h2 {
